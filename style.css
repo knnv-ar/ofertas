@@ -114,11 +114,29 @@ img {
   border-radius: 30px;
   cursor: pointer;
   transition: all 50ms ease-in;
+  font-weight: 600;
 }
 
 .card-button:hover {
-  border: 2px solid tomato;
+  border: 2px solid  hsl(271, 76%, 40%);
+  background-color: hsl(271, 76%, 40%);
+  color: white;
+  font-weight: 600;
+}
+
+.ml-button {
+  padding: 0.6rem 3rem;
+  border: 2px solid blueviolet;
   background-color: transparent;
+  color: blueviolet;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 50ms ease-in;
+  font-weight: 600;
+}
+
+.ml-button:hover {
+  border: 2px solid tomato;
   color: tomato;
   font-weight: 600;
 }  
