@@ -115,6 +115,7 @@ img {
   cursor: pointer;
   transition: all 50ms ease-in;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .card-button:hover {
